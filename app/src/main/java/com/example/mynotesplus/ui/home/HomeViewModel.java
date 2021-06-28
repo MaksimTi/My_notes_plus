@@ -11,8 +11,7 @@ public class HomeViewModel extends ViewModel {
     public HomeViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("Здесь будут новые заметки");
-    }
-
+        }
     public LiveData<String> getText() {
         return mText;
     }

@@ -10,7 +10,7 @@ public class GalleryViewModel extends ViewModel {
 
     public GalleryViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Приложение разрабатывается студентом GeekBrains - Титовым М.");
+        mText.setValue("The application is developed by android developer Maxim Titov");
     }
 
     public LiveData<String> getText() {
